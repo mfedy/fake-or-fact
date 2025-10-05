@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact or Fake</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="assets/images/logo.png" alt="Newspaper Conveyor Belt Game" class="logo" height="100">
+
+        <div class="game-area">
+            <!-- Main Game Canvas -->
+            <div class="canvas-container">
+                <canvas id="gameCanvas" width="900" height="800"></canvas>
+            </div>
+
+            <!-- Story Collection List -->
+            <div class="story-list-container">
+                <div class="story-list-header">Real Stories Encountered</div>
+                <div id="story-list" class="story-list">
+                    <!-- Stories will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <p>Press SPACE to resume • M to mute music</p>
+            <p>Drag LEFT for FAKE NEWS • Drag RIGHT for REAL NEWS</p>
+            <p>Don't let newspapers fall off the top!</p>
+        </div>
+        <div style="margin-top: 10px; color: gray;"class="footer">Created by Josh Yguado and Matthew Fedynyshyn at the WikiGameJam 2025</div>
+    </div>
+
+    <script src="assets/js/game.js"></script>
+</body>
+</html>

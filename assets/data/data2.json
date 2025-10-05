@@ -1,0 +1,417 @@
+{
+    "headlines": [
+        {
+            "isTrue": true,
+            "headline": "Australian army loses war against emus",
+            "year": "1932",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deceased_emu_during_Emu_War.jpg",
+            "article": "https://en.wikipedia.org/wiki/Emu_War"
+        },
+        {
+            "isTrue": true,
+            "headline": "Boston neighborhood flooded with 2 million gallons of molasses",
+            "year": "1919",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "article": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+        },
+        {
+            "isTrue": true,
+            "headline": "CIA spends millions training spy cats to record Soviets",
+            "year": "1960s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Directorate_of_Science_%26_Technology.png",
+            "article": "https://en.wikipedia.org/wiki/Acoustic_Kitty"
+        },
+        {
+            "isTrue": true,
+            "headline": "Dead pope put on trial in public courtroom",
+            "year": "897",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg",
+            "article": "https://en.wikipedia.org/wiki/Cadaver_Synod"
+        },
+        {
+            "isTrue": true,
+            "headline": "Norwegian town installs giant mirrors to reflect sunlight into valley",
+            "year": "2013",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Rjukan_panorama_IMG_0052.JPG",
+            "article": "https://en.wikipedia.org/wiki/Rjukan#Sunlight_reflection_project"
+        },
+        {
+            "isTrue": true,
+            "headline": "Japan holds annual crying baby sumo competition",
+            "year": "Ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Naki_Sumo_Crying_Baby_Festival_Sensoji_Asakusa_2018_1.jpg",
+            "article": "https://en.wikipedia.org/wiki/Naki_Sumo_Crying_Baby_Festival"
+        },
+        {
+            "isTrue": true,
+            "headline": "US town elects dog as mayor for third consecutive term",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rabbit_Hash_General_Store.jpg",
+            "article": "https://en.wikipedia.org/wiki/Rabbit_Hash,_Kentucky"
+        },
+        {
+            "isTrue": true,
+            "headline": "Russia builds floating nuclear power plant for Arctic town",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Floating_Nuclear_Power_Plant_model.jpg",
+            "article": "https://en.wikipedia.org/wiki/Akademik_Lomonosov"
+        },
+        {
+            "isTrue": true,
+            "headline": "NASA loses $125 million Mars probe over metric conversion error",
+            "year": "1999",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Mars_Climate_Orbiter_2.jpg/1920px-Mars_Climate_Orbiter_2.jpg",
+            "article": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+        },
+        {
+            "isTrue": true,
+            "headline": "Ancient lake in Tanzania turns animals into stone",
+            "year": "2011",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/LakeNatron_satellite_labelled.jpg",
+            "article": "https://en.wikipedia.org/wiki/Lake_Natron"
+        },
+        {
+            "isTrue": true,
+            "headline": "Beer Flood kills eight after brewery tank explodes in London",
+            "year": "1814",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Horseshoe_Brewery%2C_London%2C_c._1800.jpg",
+            "article": "https://en.wikipedia.org/wiki/London_Beer_Flood"
+        },
+        {
+            "isTrue": true,
+            "headline": "Great Stink of London forces Parliament to adjourn",
+            "year": "1858",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_silent_highwayman.jpg",
+            "article": "https://en.wikipedia.org/wiki/Great_Stink"
+        },
+        {
+            "isTrue": true,
+            "headline": "Pig War nearly sparks US\u2013UK conflict over one dead pig",
+            "year": "1859",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Belle-Vue-Sheep-farm-watercolor.gif",
+            "article": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+        },
+        {
+            "isTrue": true,
+            "headline": "New Zealand grants legal personhood to a river",
+            "year": "2017",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Whanganui_River.jpg",
+            "article": "https://en.wikipedia.org/wiki/Whanganui_River"
+        },
+        {
+            "isTrue": true,
+            "headline": "Sweden considers replacing coins with digital \u2018e-krona\u2019 pilot",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/SWE-A123c-Sveriges_Rikes_Standers_Bank-32_Skillingar_Banco_%281843%29.jpg",
+            "article": "https://en.wikipedia.org/wiki/Swedish_krona"
+        },
+        {
+            "isTrue": true,
+            "headline": "President Jimmy Carter reports UFO sighting in Georgia",
+            "year": "1969",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Fata_Morgana_Example.jpg",
+            "article": "https://en.wikipedia.org/wiki/Jimmy_Carter_UFO_incident"
+        },
+        {
+            "isTrue": true,
+            "headline": "Operation Vegetarian planned to drop anthrax-laced cakes on Germany",
+            "year": "1942",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sesame_press_cake.jpg",
+            "article": "https://en.wikipedia.org/wiki/Operation_Vegetarian"
+        },
+        {
+            "isTrue": true,
+            "headline": "Britain bans armor in Parliament chambers",
+            "year": "1313",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Oliver_Cromwell_by_Samuel_Cooper.jpg",
+            "article": "https://en.wikipedia.org/wiki/Statute_forbidding_Bearing_of_Armour"
+        },
+        {
+            "isTrue": true,
+            "headline": "Ancient Romans used human urine and goat milk as toothpaste",
+            "year": "100s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Copy_of_an_Etruscan_denture%2C_Europe%2C_1901-1930_Wellcome_L0058137.jpg",
+            "article": "https://en.wikipedia.org/wiki/Dentistry_in_ancient_Rome"
+        },
+        {
+            "isTrue": true,
+            "headline": "Sweden introduces six-hour workday experiment",
+            "year": "2015",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Co-op_activism5.svg",
+            "article": "https://en.wikipedia.org/wiki/Six-hour_day"
+        },
+        {
+            "isTrue": true,
+            "headline": "Scottish beer tax leads to public riots",
+            "year": "1760s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Duncan_Forbes_of_Culloden_by_Jeremiah_Davison.jpg",
+            "article": "https://en.wikipedia.org/wiki/Malt_tax_riots"
+        },
+        {
+            "isTrue": true,
+            "headline": "Canada once planned to build a flying saucer fighter jet",
+            "year": "1950s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Colour_avrocar_59.jpg",
+            "article": "https://en.wikipedia.org/wiki/Avro_Canada_VZ-9_Avrocar"
+        },
+        {
+            "isTrue": true,
+            "headline": "Iceland has no mosquitoes despite global warming",
+            "year": "Ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aedes_aegypti_E-A-Goeldi_1905.jpg",
+            "article": "https://en.wikipedia.org/wiki/Mosquito"
+        },
+        {
+            "isTrue": true,
+            "headline": "Einstein refused surgery to prolong his life",
+            "year": "1955",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Citizen-Einstein.jpg",
+            "article": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+            "isTrue": true,
+            "headline": "French soldier survives fall of 22,000 feet without parachute",
+            "year": "1944",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Royal_Air_Force_Bomber_Command%2C_1942-1945._CH12289.jpg",
+            "article": "https://en.wikipedia.org/wiki/Nicholas_Alkemade"
+        },
+        {
+            "isTrue": true,
+            "headline": "First email ever sent simply read \u201cQWERTYUIOP\u201d",
+            "year": "1971",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ray_Tomlinson.jpg",
+            "article": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+        },
+        {
+            "isTrue": true,
+            "headline": "Operation Paul Bunyan: U.S. cuts tree to avenge two soldiers",
+            "year": "1976",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/DMZ_incident_tree.jpg",
+            "article": "https://en.wikipedia.org/wiki/Korean_axe_murder_incident"
+        },
+        {
+            "isTrue": true,
+            "headline": "German mayor bans dancing on Good Friday",
+            "year": "Ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Uetersen_Bekanntmachung_Oeffentliche_Lustbarkeiten_Aug._1914.jpg",
+            "article": "https://en.wikipedia.org/wiki/Dancing_ban"
+        },
+        {
+            "isTrue": true,
+            "headline": "Man survives Niagara Falls plunge with only minor bruises",
+            "year": "2003",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/Kirk_Raymond_Jones.jpg",
+            "article": "https://en.wikipedia.org/wiki/Kirk_Raymond_Jones"
+        },
+        {
+            "isTrue": true,
+            "headline": "Kiev builds museum devoted to collectible toilets",
+            "year": "2002",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/%D0%9A%D0%BE%D0%BB%D0%B5%D0%BA%D1%86%D1%96%D1%8F_%D0%BD%D1%96%D1%87%D0%BD%D0%B8%D1%85_%D0%B2%D0%B0%D0%B7_%D0%B2_%D0%9C%D1%83%D0%B7%D0%B5%D1%97_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97_%D1%82%D1%83%D0%B0%D0%BB%D0%B5%D1%82%D1%83.jpg",
+            "article": "https://en.wikipedia.org/wiki/Toilet_History_Museum"
+        },
+        {
+            "isTrue": true,
+            "headline": "South Korea broadcasts K-pop to North Korea via loudspeakers",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Wall_between_N_and_S_korea.jpg",
+            "article": "https://en.wikipedia.org/wiki/Korean_Demilitarized_Zone_loudspeakers"
+        },
+        {
+            "isTrue": false,
+            "headline": "China unveils 24-hour artificial sun to replace streetlights",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/EAST-tokamak_sketch.png",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "France establishes Ministry of Silence to reduce urban noise",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/H%C3%B4tel_de_la_Marine.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Vatican launches confession app with AI forgiveness",
+            "year": "2024",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/Confession_A_Roman_Catholic_App.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Finland tests underwater data farms powered by fish movement",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Underwater_Walk_of_Sea_Life_London_Aquarium.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Norway introduces selfie tax to curb glacier tourism",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/TWC_Hokitika_Gorge_%E2%80%A2_Stewart_Nimmo_%E2%80%A2_MRD_1.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Argentina launches national nap hour to boost productivity",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pihen%C5%91_a_sz%C5%91l%C5%91hegyen._Fortepan_57116.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Canada installs speed bumps made of recycled snow",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Le%C5%BEe%C4%87i_policajac_016.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Elon Musk announces Tesla city where traffic lights run on emotion sensors",
+            "year": "2026",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Traffic_lights.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Germany launches nationwide empathy training in schools",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Thomas_Jefferson_High_School_Students_in_a_Classroom.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Finland replaces school grades with happiness scores",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Smiley_head_happy.png",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Iceland introduces \u201cVolcano Day\u201d national holiday",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Geldingadalagos.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Brazil launches rainforest currency backed by oxygen credits",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Euro_banknotes%2C_Europa_series.png",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "UK royal family opens official TikTok account for corgis",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Kelsey_n_Penny_%28Welsh_Corgis%29.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Norway powers cruise ships using recycled whale oil",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sunward_at_Pier_A_%287562495404%29.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "China patents edible smartphone screen made of starch polymer",
+            "year": "2024",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/ZTE_Blade_Original_Design.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "US state legalizes time-travel marriages retroactively",
+            "year": "2032",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kanazawa_Station_Water_Clock.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Singapore develops robotic pigeons to clean city streets",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Postduif.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "UK Parliament votes to meet exclusively in Metaverse",
+            "year": "2025",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Collision_2024_-_VR5_3671_%2853804364983%29.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Germany launches \u201cKindness Points\u201d as part of social credit pilot",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cycling_Amsterdam_04.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "United States bans mirrors in government buildings",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Mirror_reflection.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Egypt confirms pyramid chamber made of alien metal",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Vatican approves sainthood for first robot",
+            "year": "2024",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Automatic_servant_of_Philo_of_Byzantium%2C_Kotsanas_Museum_of_Ancient_Greek_Archaeology.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Italy launches \u201cOpera for Dogs\u201d cultural experiment",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kikeev_Kalmyk_hoton.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "UN forms council to protect endangered memes",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kilroy_was_here_%28re-drawn%29.gif",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Germany funds university program for time-travel ethics",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/ADFA_Lecture_Theatres.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Icelandic scientists grow glow-in-the-dark sheep for polar research",
+            "year": "2016",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Icelandic_sheep.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Japan builds bridge entirely from recycled chopsticks",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bessirain11.jpg",
+            "article": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Mexico City opens museum dedicated entirely to lost socks",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/%E5%BF%98%E3%82%8C%E7%89%A9_%2826568823296%29.jpg",
+            "article": null
+        }
+    ]
+}

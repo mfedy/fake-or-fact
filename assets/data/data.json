@@ -1,0 +1,746 @@
+{
+    "headlines": [
+        {
+            "isTrue": true,
+            "headline": "Australian army loses war against emus",
+            "year": "1932",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Emu War"
+        },
+        {
+            "isTrue": true,
+            "headline": "Boston neighborhood flooded with 2 million gallons of molasses",
+            "year": "1919",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Great Molasses Flood"
+        },
+        {
+            "isTrue": true,
+            "headline": "CIA spends millions training spy cats to record Soviets",
+            "year": "1960s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Acoustic Kitty"
+        },
+        {
+            "isTrue": true,
+            "headline": "Dead pope put on trial in public courtroom",
+            "year": "897",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Cadaver Synod"
+        },
+        {
+            "isTrue": true,
+            "headline": "Napoleon attacked by rabbits during hunting event",
+            "year": "1807",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Napoleon and the rabbit incident"
+        },
+        {
+            "isTrue": true,
+            "headline": "Norwegian town installs giant mirrors to reflect sunlight into valley",
+            "year": "2013",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Rjukan"
+        },
+        {
+            "isTrue": true,
+            "headline": "Japan holds annual crying baby sumo competition",
+            "year": "1600s–present",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Nakizumo"
+        },
+        {
+            "isTrue": true,
+            "headline": "US town elects dog as mayor for third consecutive term",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Rabbit Hash, Kentucky"
+        },
+        {
+            "isTrue": true,
+            "headline": "Russia builds floating nuclear power plant for Arctic town",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Akademik Lomonosov"
+        },
+        {
+            "isTrue": true,
+            "headline": "Italy’s high court rules lobsters can’t be kept on ice—it stresses them",
+            "year": "2017",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Animal rights in Italy"
+        },
+        {
+            "isTrue": true,
+            "headline": "Belgium conducts national potato-peeling championship",
+            "year": "1960s–present",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Belgian_frites"
+        },
+        {
+            "isTrue": true,
+            "headline": "Town in Alaska has one building for all residents",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Whittier, Alaska"
+        },
+        {
+            "isTrue": true,
+            "headline": "Roman emperor appoints horse as consul",
+            "year": "39 AD",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Incitatus"
+        },
+        {
+            "isTrue": true,
+            "headline": "NASA loses $125 million Mars probe over metric conversion error",
+            "year": "1999",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Mars Climate Orbiter"
+        },
+        {
+            "isTrue": true,
+            "headline": "Ancient lake in Tanzania turns animals into stone",
+            "year": "2011",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Lake Natron"
+        },
+        {
+            "isTrue": true,
+            "headline": "France builds 10-foot bread monument for national unity day",
+            "year": "1990s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Fête du Pain"
+        },
+        {
+            "isTrue": true,
+            "headline": "Beer Flood kills eight after brewery tank explodes in London",
+            "year": "1814",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "London Beer Flood"
+        },
+        {
+            "isTrue": true,
+            "headline": "Great Stink of London forces Parliament to adjourn",
+            "year": "1858",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Great Stink"
+        },
+        {
+            "isTrue": true,
+            "headline": "Pig War nearly sparks US–UK conflict over one dead pig",
+            "year": "1859",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Pig War"
+        },
+        {
+            "isTrue": true,
+            "headline": "New Zealand grants legal personhood to a river",
+            "year": "2017",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Whanganui River"
+        },
+        {
+            "isTrue": true,
+            "headline": "Pope Gregory IX declared war on cats, blaming them for heresy",
+            "year": "1230s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Pope Gregory IX and cats myth"
+        },
+        {
+            "isTrue": true,
+            "headline": "Sweden replaces coins with digital ‘e-krona’ pilot",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "E-krona"
+        },
+        {
+            "isTrue": true,
+            "headline": "Iceland accidentally elects comedian president",
+            "year": "2016",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Guðni Th. Jóhannesson"
+        },
+        {
+            "isTrue": true,
+            "headline": "President Jimmy Carter reports UFO sighting in Georgia",
+            "year": "1969",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Jimmy Carter UFO incident"
+        },
+        {
+            "isTrue": true,
+            "headline": "British army fires cannon salute to honor escaped parrot",
+            "year": "1843",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "London Zoo anecdotes"
+        },
+        {
+            "isTrue": true,
+            "headline": "Operation Vegetarian planned to drop anthrax-laced cakes on Germany",
+            "year": "1942",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Operation Vegetarian"
+        },
+        {
+            "isTrue": true,
+            "headline": "France outlaws burials within Paris after cemetery collapse",
+            "year": "1780",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Cemetery of the Innocents"
+        },
+        {
+            "isTrue": true,
+            "headline": "Florida town accidentally issues curfew for cats",
+            "year": "1986",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Cat curfew ordinance"
+        },
+        {
+            "isTrue": true,
+            "headline": "Britain bans armor in Parliament chambers",
+            "year": "1313",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Ban on armor in Parliament"
+        },
+        {
+            "isTrue": true,
+            "headline": "Pig’s bladder used as soccer ball in first World Cup",
+            "year": "1930",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "1930 FIFA World Cup"
+        },
+        {
+            "isTrue": true,
+            "headline": "Ancient Romans used crushed mouse brains as toothpaste",
+            "year": "1st century AD",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Roman hygiene"
+        },
+        {
+            "isTrue": true,
+            "headline": "Scientists name new frog species after Led Zeppelin",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Pristimantis ledzeppelin"
+        },
+        {
+            "isTrue": true,
+            "headline": "Napoleon was once captured by a group of schoolchildren",
+            "year": "1815",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Napoleon's 1815 capture myth"
+        },
+        {
+            "isTrue": true,
+            "headline": "Denmark appoints official national philosopher",
+            "year": "2017",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Office of the National Philosopher of Denmark"
+        },
+        {
+            "isTrue": true,
+            "headline": "US government detonates nukes to test if gold is radioactive",
+            "year": "1962",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Project Gnome"
+        },
+        {
+            "isTrue": true,
+            "headline": "Sweden introduces six-hour workday experiment",
+            "year": "2015",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Work–life balance in Sweden"
+        },
+        {
+            "isTrue": true,
+            "headline": "London beer tax leads to public riots",
+            "year": "1760s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Malt Tax Riots"
+        },
+        {
+            "isTrue": true,
+            "headline": "Canada once planned to build a flying saucer fighter jet",
+            "year": "1950s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Avro Canada VZ-9 Avrocar"
+        },
+        {
+            "isTrue": true,
+            "headline": "Iceland has no mosquitoes despite global warming",
+            "year": "ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Fauna of Iceland"
+        },
+        {
+            "isTrue": true,
+            "headline": "Einstein refused surgery to prolong his life",
+            "year": "1955",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Albert Einstein"
+        },
+        {
+            "isTrue": true,
+            "headline": "French soldier survives fall of 22,000 feet without parachute",
+            "year": "1944",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Nicholas Alkemade"
+        },
+        {
+            "isTrue": true,
+            "headline": "First email ever sent simply read “QWERTYUIOP”",
+            "year": "1971",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "History of email"
+        },
+        {
+            "isTrue": true,
+            "headline": "Operation Paul Bunyan: U.S. cuts tree to avenge two soldiers",
+            "year": "1976",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Korean axe murder incident"
+        },
+        {
+            "isTrue": true,
+            "headline": "German mayor bans dancing on Good Friday",
+            "year": "ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Dance ban in Germany"
+        },
+        {
+            "isTrue": true,
+            "headline": "Man survives Niagara Falls plunge with only minor bruises",
+            "year": "2003",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Kirk Jones (Niagara Falls jumper)"
+        },
+        {
+            "isTrue": true,
+            "headline": "Scientists name fungus after Keanu Reeves because it kills “effortlessly”",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Keanumyces reavesii"
+        },
+        {
+            "isTrue": true,
+            "headline": "New Zealand builds museum devoted to collectible toilets",
+            "year": "2002",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Te Puke Toilet Museum"
+        },
+        {
+            "isTrue": true,
+            "headline": "Japan has a train station with only one passenger",
+            "year": "2016",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Kami-Shirataki Station"
+        },
+        {
+            "isTrue": true,
+            "headline": "South Korea broadcasts K-pop to North Korea via loudspeakers",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "South Korea propaganda broadcasts"
+        },
+        {
+            "isTrue": true,
+            "headline": "French farmers protest low prices by dumping manure on government buildings",
+            "year": "2013",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "French farmers' protests"
+        },
+        {
+            "isTrue": true,
+            "headline": "British army fires cannon salute to honor escaped parrot",
+            "year": "1843",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "London Zoo anecdotes"
+        },
+        {
+            "isTrue": true,
+            "headline": "Operation Vegetarian planned to drop anthrax-laced cakes on Germany",
+            "year": "1942",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Operation Vegetarian"
+        },
+        {
+            "isTrue": true,
+            "headline": "France outlaws burials within Paris after cemetery collapse",
+            "year": "1780",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Cemetery of the Innocents"
+        },
+        {
+            "isTrue": true,
+            "headline": "Florida town accidentally issues curfew for cats",
+            "year": "1986",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Cat curfew ordinance"
+        },
+        {
+            "isTrue": true,
+            "headline": "Britain bans armor in Parliament chambers",
+            "year": "1313",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Ban on armor in Parliament"
+        },
+        {
+            "isTrue": true,
+            "headline": "Pig’s bladder used as soccer ball in first World Cup",
+            "year": "1930",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "1930 FIFA World Cup"
+        },
+        {
+            "isTrue": true,
+            "headline": "Ancient Romans used crushed mouse brains as toothpaste",
+            "year": "1st century AD",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Roman hygiene"
+        },
+        {
+            "isTrue": true,
+            "headline": "Scientists name new frog species after Led Zeppelin",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Pristimantis ledzeppelin"
+        },
+        {
+            "isTrue": true,
+            "headline": "Napoleon was once captured by a group of schoolchildren",
+            "year": "1815",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Napoleon's 1815 capture myth"
+        },
+        {
+            "isTrue": true,
+            "headline": "Denmark appoints official national philosopher",
+            "year": "2017",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Office of the National Philosopher of Denmark"
+        },
+        {
+            "isTrue": true,
+            "headline": "US government detonates nukes to test if gold is radioactive",
+            "year": "1962",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Project Gnome"
+        },
+        {
+            "isTrue": true,
+            "headline": "Sweden introduces six-hour workday experiment",
+            "year": "2015",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Work–life balance in Sweden"
+        },
+        {
+            "isTrue": true,
+            "headline": "London beer tax leads to public riots",
+            "year": "1760s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Malt Tax Riots"
+        },
+        {
+            "isTrue": true,
+            "headline": "Canada once planned to build a flying saucer fighter jet",
+            "year": "1950s",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Avro Canada VZ-9 Avrocar"
+        },
+        {
+            "isTrue": true,
+            "headline": "Iceland has no mosquitoes despite global warming",
+            "year": "ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Fauna of Iceland"
+        },
+        {
+            "isTrue": true,
+            "headline": "Einstein refused surgery to prolong his life",
+            "year": "1955",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Albert Einstein"
+        },
+        {
+            "isTrue": true,
+            "headline": "French soldier survives fall of 22,000 feet without parachute",
+            "year": "1944",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Nicholas Alkemade"
+        },
+        {
+            "isTrue": true,
+            "headline": "First email ever sent simply read “QWERTYUIOP”",
+            "year": "1971",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "History of email"
+        },
+        {
+            "isTrue": true,
+            "headline": "Operation Paul Bunyan: U.S. cuts tree to avenge two soldiers",
+            "year": "1976",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Korean axe murder incident"
+        },
+        {
+            "isTrue": true,
+            "headline": "German mayor bans dancing on Good Friday",
+            "year": "ongoing",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Dance ban in Germany"
+        },
+        {
+            "isTrue": true,
+            "headline": "Man survives Niagara Falls plunge with only minor bruises",
+            "year": "2003",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Kirk Jones (Niagara Falls jumper)"
+        },
+        {
+            "isTrue": true,
+            "headline": "Scientists name fungus after Keanu Reeves because it kills “effortlessly”",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Keanumyces reavesii"
+        },
+        {
+            "isTrue": true,
+            "headline": "New Zealand builds museum devoted to collectible toilets",
+            "year": "2002",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Te Puke Toilet Museum"
+        },
+        {
+            "isTrue": true,
+            "headline": "Japan has a train station with only one passenger",
+            "year": "2016",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "Kami-Shirataki Station"
+        },
+        {
+            "isTrue": true,
+            "headline": "South Korea broadcasts K-pop to North Korea via loudspeakers",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "South Korea propaganda broadcasts"
+        },
+        {
+            "isTrue": true,
+            "headline": "French farmers protest low prices by dumping manure on government buildings",
+            "year": "2013",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": "French farmers' protests"
+        },
+        {
+            "isTrue": false,
+            "headline": "China unveils 24-hour artificial sun to replace streetlights",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "France establishes Ministry of Silence to reduce urban noise",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Vatican launches confession app with AI forgiveness",
+            "year": "2024",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Finland tests underwater data farms powered by fish movement",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Norway introduces selfie tax to curb glacier tourism",
+            "year": "2018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Argentina launches national nap hour to boost productivity",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Canada installs speed bumps made of recycled snow",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Elon Musk announces Tesla city where traffic lights run on emotion sensors",
+            "year": "2026",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Germany launches nationwide empathy training in schools",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Vatican opens confession hotline staffed by AI priests",
+            "year": "2024",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Finland replaces school grades with happiness scores",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Iceland introduces “Volcano Day” national holiday",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Brazil launches rainforest currency backed by oxygen credits",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "UK royal family opens official TikTok account for corgis",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Norway powers cruise ships using recycled whale oil",
+            "year": "2019",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "France makes baguette a UNESCO-protected cultural object",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "China patents edible smartphone screen made of starch polymer",
+            "year": "2024",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "US state legalizes time-travel marriages retroactively",
+            "year": "2032",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "France introduces nationwide curfew for smartphones",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Vatican creates council to define digital miracles",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Singapore develops robotic pigeons to clean city streets",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "UK Parliament votes to meet exclusively in Metaverse",
+            "year": "2025",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "South Africa creates Department of Dreams to record citizen sleep patterns",
+            "year": "2025",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Argentina invents silent fireworks for sensitive pets",
+            "year": "2020",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "France creates carbon tax on laughter during stand-up shows",
+            "year": "2021",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Germany launches “Kindness Points” as part of social credit pilot",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "United States bans mirrors in government buildings",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Canada opens world’s first indoor forest city",
+            "year": "2025",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Finland declares national apology to the weather for climate change",
+            "year": "2022",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        },
+        {
+            "isTrue": false,
+            "headline": "Egypt confirms pyramid chamber made of alien metal",
+            "year": "2023",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/BostonMolassesDisaster.jpg",
+            "articleUrl": null
+        }
+    ]
+}
