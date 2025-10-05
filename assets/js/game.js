@@ -2,6 +2,10 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
+// URL parameter detection
+const urlParams = new URLSearchParams(window.location.search);
+const demoMode = urlParams.get('demo_mode') === 'true';
+
 // Game state
 let newspapers = [];
 let wasteCount = 0;
@@ -14,6 +18,7 @@ let showStartScreen = true; // New state for start screen
 let collectedStories = []; // Array to store collected real stories
 let lastSpawnTime = 0;
 let spawnInterval = 7000; // milliseconds (further increased for better newspaper spacing)
+let pauseInterval = demoMode ? 1000000000000 : 4000;
 let beltOffset = 0; // For animating conveyor belt
 let gameSpeed = 2; // Configurable speed for both newspapers and belt animation
 let headlineData = []; // Store loaded headline data from JSON
@@ -166,7 +171,8 @@ class Newspaper {
             if (this.shouldTriggerBeltPause && this.y <= 200) { // When newspaper top reaches y = 300 (centered position)
                 this.shouldTriggerBeltPause = false; // Only trigger once
                 beltPaused = true;
-                beltPauseEndTime = Date.now() + 4000; // Pause for 2 seconds
+                
+                beltPauseEndTime = Date.now() + pauseInterval; // Pause for 2 seconds
                 console.log('Triggering belt pause - newspaper is centered');
             }
 
@@ -705,7 +711,7 @@ function showDropFeedback(type, newspaper) {
         saveHighScore(); // Save high score when game ends
         return;
     }
-    
+
     // If correct drop, show success flash and handle belt/conveyor logic
     if (isCorrectDrop) {
         failedNewspaper = null; // Clear any previous failed newspaper
@@ -726,9 +732,16 @@ function showDropFeedback(type, newspaper) {
         }
     }
 
-    // If incorrect, pause game and show dialog
+    // If incorrect, handle based on demo mode
     if (!isCorrectDrop) {
         failedNewspaper = newspaper; // Store the newspaper that was incorrectly dropped
+
+        // Restart conveyor belt if it was paused (for both demo and normal modes)
+        if (beltPaused) {
+            beltPaused = false;
+            console.log('Restarted conveyor belt after incorrect drop');
+        }
+        
         gamePaused = true;
         showIncorrectDialog = true;
     }
@@ -855,6 +868,13 @@ function handleIncorrectDrop(newspaper) {
 
     // Store the newspaper that was incorrectly dropped and show dialog
     failedNewspaper = newspaper;
+
+    // Restart conveyor belt if it was paused (for both demo and normal modes)
+    if (beltPaused) {
+        beltPaused = false;
+        console.log('Restarted conveyor belt after newspaper fell off belt');
+    }
+
     gamePaused = true;
     showIncorrectDialog = true;
 }
