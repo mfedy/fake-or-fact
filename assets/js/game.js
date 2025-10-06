@@ -20,7 +20,7 @@ let lastSpawnTime = 0;
 let spawnInterval = 7000; // milliseconds (further increased for better newspaper spacing)
 let pauseInterval = demoMode ? 1000000000000 : 4000;
 let beltOffset = 0; // For animating conveyor belt
-let gameSpeed = 2; // Configurable speed for both newspapers and belt animation
+let gameSpeed = 5; // Configurable speed for both newspapers and belt animation
 let headlineData = []; // Store loaded headline data from JSON
 let originalHeadlines = []; // Store original headline data from JSON
 let beltPaused = false; // Separate pause state for conveyor belt
@@ -109,44 +109,28 @@ class Newspaper {
     }
 
     loadNewspaperImage() {
-        // Use preloaded newspaper image if available, otherwise load it
-        if (images['assets/images/newspaper.png']) {
+        // Use preloaded newspaper image if available and complete
+        if (images['assets/images/newspaper.png'] && images['assets/images/newspaper.png'].complete) {
             this.image = images['assets/images/newspaper.png'];
             this.imageLoaded = true;
             console.log('Using preloaded newspaper image');
         } else {
-            // Fallback: load the newspaper image file
-            this.image = new Image();
-            this.image.onload = () => {
-                this.imageLoaded = true;
-                console.log('Newspaper image loaded successfully');
-            };
-            this.image.onerror = () => {
-                console.error('Failed to load newspaper image');
-                this.imageLoaded = false; // Fallback to colored rectangles
-            };
-            this.image.src = 'assets/images/newspaper.png'; // Load the newspaper image file
+            // Image not yet loaded - will be drawn as colored rectangle until it loads
+            this.imageLoaded = false;
+            console.log('Newspaper image not yet loaded');
         }
     }
 
     loadArticleImage() {
-        // Use preloaded article image if available, otherwise load it
-        if (this.data.imageUrl && images[this.data.imageUrl]) {
+        // Use preloaded article image if available and complete
+        if (this.data.imageUrl && images[this.data.imageUrl] && images[this.data.imageUrl].complete) {
             this.articleImage = images[this.data.imageUrl];
             this.articleImageLoaded = true;
             console.log('Using preloaded article image');
         } else if (this.data.imageUrl) {
-            // Fallback: load the article image from data.imageUrl
-            this.articleImage = new Image();
-            this.articleImage.onload = () => {
-                this.articleImageLoaded = true;
-                console.log('Article image loaded successfully');
-            };
-            this.articleImage.onerror = () => {
-                console.error('Failed to load article image');
-                this.articleImageLoaded = false;
-            };
-            this.articleImage.src = this.data.imageUrl;
+            // Image not yet loaded - will be drawn without image until it loads
+            this.articleImageLoaded = false;
+            console.log('Article image not yet loaded');
         }
     }
 
@@ -752,6 +736,25 @@ function togglePause() {
     gamePaused = !gamePaused;
 }
 
+// Update newspapers to use newly loaded images
+function updateNewspapersWithLoadedImages() {
+    newspapers.forEach(newspaper => {
+        // Update newspaper image if now available
+        if (!newspaper.imageLoaded && images['assets/images/newspaper.png'] && images['assets/images/newspaper.png'].complete) {
+            newspaper.image = images['assets/images/newspaper.png'];
+            newspaper.imageLoaded = true;
+            console.log('Updated newspaper with loaded image');
+        }
+
+        // Update article image if now available
+        if (!newspaper.articleImageLoaded && newspaper.data.imageUrl && images[newspaper.data.imageUrl] && images[newspaper.data.imageUrl].complete) {
+            newspaper.articleImage = images[newspaper.data.imageUrl];
+            newspaper.articleImageLoaded = true;
+            console.log('Updated newspaper article image');
+        }
+    });
+}
+
 // Update the HTML story list
 function updateStoryList() {
     const storyListElement = document.getElementById('story-list');
@@ -1029,8 +1032,8 @@ function drawConveyorBelt() {
     const centerWidth = canvas.width - leftMargin - rightMargin;
 
     // Draw conveyor background image (3-part split animation)
-    const conveyorImg = images['assets/images/conveyor.png'] || new Image();
-    if (conveyorImg.complete || images['conveyor.png']) {
+    const conveyorImg = images['assets/images/conveyor.png'];
+    if (conveyorImg && conveyorImg.complete) {
         const imgWidth = conveyorImg.width;
         const imgHeight = conveyorImg.height;
 
@@ -1039,7 +1042,7 @@ function drawConveyorBelt() {
 
         // Calculate positions
         const centerSectionX = centerStartX;
-        
+
         // Draw animated center belt
         const repeatCount = Math.ceil(canvas.height / imgHeight) + 1;
         for (let i = 0; i < repeatCount; i++) {
@@ -1248,8 +1251,8 @@ function gameLoop() {
     if (isBeltMoving) {
         beltOffset += gameSpeed; // Use configurable game speed
         // Reset based on conveyor image height to maintain sync with newspaper movement
-        const conveyorImg = images['assets/images/conveyor.png'] || new Image();
-        if (conveyorImg.complete || images['conveyor.png']) {
+        const conveyorImg = images['assets/images/conveyor.png'];
+        if (conveyorImg && conveyorImg.complete) {
             if (beltOffset >= conveyorImg.height) beltOffset = 0;
         } else {
             // Fallback to fixed reset if image not loaded
@@ -1306,8 +1309,8 @@ function gameLoop() {
         ctx.strokeRect(dialogX, dialogY, dialogWidth, dialogHeight);
 
         // Success image
-        const successImg = images['assets/images/success.png'] || new Image();
-        if (successImg.complete || images['assets/images/success.png']) {
+        const successImg = images['assets/images/success.png'];
+        if (successImg && successImg.complete) {
             const imgX = dialogX + (dialogWidth - imgSize) / 2;
             const imgY = dialogY + padding;
             ctx.drawImage(successImg, imgX, imgY, imgSize, imgSize);
@@ -1472,12 +1475,18 @@ function gameLoop() {
             const x = failStartX + (i * (failIconSize + 8));
             if (i < fails) {
                 // Draw normal (used) fail icon
-                ctx.drawImage(images['assets/images/fail.png'], x, failY, failIconSize, failIconSize);
+                const failImg = images['assets/images/fail.png'];
+                if (failImg && failImg.complete) {
+                    ctx.drawImage(failImg, x, failY, failIconSize, failIconSize);
+                }
             } else {
                 // Draw grayscaled (remaining) fail icon
-                ctx.globalAlpha = 0.3;
-                ctx.drawImage(images['assets/images/fail.png'], x, failY, failIconSize, failIconSize);
-                ctx.globalAlpha = 1.0;
+                const failImg = images['assets/images/fail.png'];
+                if (failImg && failImg.complete) {
+                    ctx.globalAlpha = 0.3;
+                    ctx.drawImage(failImg, x, failY, failIconSize, failIconSize);
+                    ctx.globalAlpha = 1.0;
+                }
             }
         }
 
@@ -1565,8 +1574,8 @@ function gameLoop() {
 // Draw factory floor and equipment
 function drawFactoryFloor() {
     // Draw left drop zone background
-    const leftImg = images['assets/images/left.jpg'] || new Image();
-    if (leftImg.complete || images['assets/images/left.jpg']) {
+    const leftImg = images['assets/images/left.jpg'];
+    if (leftImg && leftImg.complete) {
         ctx.drawImage(leftImg, 0, 0, 200, canvas.height);
     } else {
         // Fallback tile pattern for left side
@@ -1574,8 +1583,8 @@ function drawFactoryFloor() {
     }
 
     // Draw right drop zone background
-    const rightImg = images['assets/images/right.jpg'] || new Image();
-    if (rightImg.complete || images['assets/images/right.jpg']) {
+    const rightImg = images['assets/images/right.jpg'];
+    if (rightImg && rightImg.complete) {
         ctx.drawImage(rightImg, canvas.width - 200, 0, 200, canvas.height);
     } else {
         // Fallback tile pattern for right side
@@ -1610,15 +1619,9 @@ function drawWasteBasket() {
     const basketWidth = 150;
     const basketHeight = 225;
 
-    // Draw trash bin image
-    const trashBinImg = new Image();
-    trashBinImg.onload = function() {
-        ctx.drawImage(trashBinImg, basketX, basketY, basketWidth, basketHeight);
-    };
-    trashBinImg.src = 'assets/images/trash-bin.png';
-
-    // Fallback if image doesn't load
-    if (trashBinImg.complete) {
+    // Draw trash bin image (use preloaded image)
+    const trashBinImg = images['assets/images/trash-bin.png'];
+    if (trashBinImg && trashBinImg.complete) {
         ctx.drawImage(trashBinImg, basketX, basketY, basketWidth, basketHeight);
     } else {
         // Fallback drawing (in case image fails to load)
@@ -1629,9 +1632,9 @@ function drawWasteBasket() {
         ctx.strokeRect(basketX, basketY, basketWidth, basketHeight);
     }
 
-    // Draw fake.jpg label in trash drop zone
-    const fakeImg = images['assets/images/fake.jpg'] || new Image();
-    if (fakeImg.complete || images['assets/images/fake.jpg']) {
+    // Draw fake.jpg label in trash drop zone (use preloaded image)
+    const fakeImg = images['assets/images/fake.jpg'];
+    if (fakeImg && fakeImg.complete) {
         // Maintain aspect ratio - calculate size based on image dimensions
         const maxSize = 160;
         const aspectRatio = fakeImg.width / fakeImg.height;
@@ -1660,15 +1663,9 @@ function drawNewspaperCart() {
     const cartWidth = 150;
     const cartHeight = 225;
 
-    // Draw news bin image
-    const newsBinImg = new Image();
-    newsBinImg.onload = function() {
-        ctx.drawImage(newsBinImg, cartX, cartY, cartWidth, cartHeight);
-    };
-    newsBinImg.src = 'assets/images/news-bin.png';
-
-    // Fallback if image doesn't load
-    if (newsBinImg.complete) {
+    // Draw news bin image (use preloaded image)
+    const newsBinImg = images['assets/images/news-bin.png'];
+    if (newsBinImg && newsBinImg.complete) {
         ctx.drawImage(newsBinImg, cartX, cartY, cartWidth, cartHeight);
     } else {
         // Fallback drawing (in case image fails to load)
@@ -1680,9 +1677,9 @@ function drawNewspaperCart() {
         ctx.fillRect(cartX, cartY + cartHeight - 20, cartWidth, 20);
     }
 
-    // Draw fact.jpg label in cart drop zone
-    const factImg = images['assets/images/fact.jpg'] || new Image();
-    if (factImg.complete || images['assets/images/fact.jpg']) {
+    // Draw fact.jpg label in cart drop zone (use preloaded image)
+    const factImg = images['assets/images/fact.jpg'];
+    if (factImg && factImg.complete) {
         // Maintain aspect ratio - calculate size based on image dimensions
         const maxSize = 160;
         const aspectRatio = factImg.width / factImg.height;
@@ -1727,12 +1724,18 @@ function drawScore() {
 
         if (i < fails) {
             // Draw normal (used) fail icon
-            ctx.drawImage(images['assets/images/fail.png'] || new Image(), x, y, failIconSize, failIconSize);
+            const failImg = images['assets/images/fail.png'];
+            if (failImg && failImg.complete) {
+                ctx.drawImage(failImg, x, y, failIconSize, failIconSize);
+            }
         } else {
             // Draw grayed out (remaining) fail icon
-            ctx.globalAlpha = 0.3;
-            ctx.drawImage(images['assets/images/fail.png'] || new Image(), x, y, failIconSize, failIconSize);
-            ctx.globalAlpha = 1.0;
+            const failImg = images['assets/images/fail.png'];
+            if (failImg && failImg.complete) {
+                ctx.globalAlpha = 0.3;
+                ctx.drawImage(failImg, x, y, failIconSize, failIconSize);
+                ctx.globalAlpha = 1.0;
+            }
         }
     }
 
@@ -1801,6 +1804,8 @@ async function preloadImages() {
     imageUrls.add('assets/images/conveyor.png');
     imageUrls.add('assets/images/left.jpg');
     imageUrls.add('assets/images/right.jpg');
+    imageUrls.add('assets/images/trash-bin.png');
+    imageUrls.add('assets/images/news-bin.png');
 
     const urlsArray = Array.from(imageUrls);
     const batchSize = 5;
@@ -1854,6 +1859,9 @@ async function preloadImages() {
     const totalCount = urlsArray.length;
     console.log(`Preloading complete: ${loadedCount}/${totalCount} images loaded successfully`);
     console.log('All images loaded - starting game');
+
+    // Update all existing newspapers to use newly loaded images
+    updateNewspapersWithLoadedImages();
 }
 
 // Load headline data from JSON file
